@@ -1,8 +1,8 @@
 const https = require('https');
 const fs = require('fs');
 const launcher = require('./launcher.js');
-const username = 'kieranaslett@live.com';
-const password = 'peepeepoopoo shushhh';
+const username = 'secret';
+const password = 'secret';
 
 function newToken(username, password) { //200 Valid, 403 Invalid username or password
     return new Promise((resolve, reject) => {
